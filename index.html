@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/style.css">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { position: absolute; top:90vh; font-size: 11px; text-align: center; color: #fff; }
+    .attribution a { color:#fff; }
+  </style>
+</head>
+<body>
+<!-- 
+  You’ve used 815 GB of your storage
+
+  185 GB Left
+  
+  0 GB
+  1000 GB
+   -->
+<!-- first rectangle -->
+   <section id="links">
+     <div id="logo"><img src="images/logo.svg" alt="Fylo logo"></div>
+     <div class="links-list">
+       <ul>
+         <li><a href="#"><img src="images/icon-document.svg" alt=""></a></li>
+         <li><a href="#"><img src="images/icon-folder.svg" alt=""></a></li>
+         <li><a href="#"><img src="images/icon-upload.svg" alt=""></a></li>
+      </ul>
+     </div>
+   </section>
+<!-- end of first rectangle -->
+<!-- second rectangle -->
+   <section id="usage">
+    <div class="usage-text">
+      <p>You’ve used <b>815 GB</b> of your storage</p>
+    </div>
+    <div class="progress-bar">
+      <div class="used"></div>
+    </div>
+    <div class="min-max">
+      <span><b>0 GB</b></span>
+      <span><b>1000 GB</b></span>
+    </div>
+    <div class="left-usage">
+      <p><b>185</b><span>GB LEFT</span></p>
+    </div>
+   </section>
+<!--end of second rectangle  -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/DevMoustafa97" target="_blank">Moustafa Mahmoud</a>.
+  </div>
+</body>
+</html>
